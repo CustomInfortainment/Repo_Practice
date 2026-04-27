@@ -21,8 +21,9 @@ signals:
 
 private slots:
     void onReadyRead();
-    void onBytesWriten(qint64 bytes);
+    void onBytesWritten(qint64 bytes);
     void onErrorOccurred(QSerialPort::SerialPortError error);
+    void onAboutToClose();
 
 private:
     QSerialPort* m_serialPort = nullptr;

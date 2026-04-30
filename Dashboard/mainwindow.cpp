@@ -13,7 +13,8 @@ MainWindow::MainWindow(QWidget *parent)
     button = new QPushButton("눌러봐", this);
     button->setGeometry(100, 160, 100, 40);
 
-    connect(button, &QPushButton::clicked, this, &MainWindow::onButtonClicked);
+    connect(button, &QPushButton::clicked,
+            this, &MainWindow::onButtonClicked);
 }
 
 void MainWindow::onButtonClicked()

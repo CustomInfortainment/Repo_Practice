@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/Users/choemingyu/Library/Arduino15/packages/esp32/hardware/esp32/3.3.7/cores/esp32",
+                "/Users/choemingyu/Library/Arduino15/packages/esp32/hardware/esp32/3.3.7/variants/esp32",
+                "/Users/choemingyu/Library/Arduino15/packages/esp32/hardware/esp32/3.3.7/libraries/**",
+                "/Users/choemingyu/Library/Arduino15/packages/esp32/tools/**"
+            ],
+            "defines": [
+                "ARDUINO=10819",
+                "ESP32",
+                "ARDUINO_ESP32_DEV"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-clang-arm64",
+            "forcedInclude": [
+                "/Users/choemingyu/Library/Arduino15/packages/esp32/hardware/esp32/3.3.7/cores/esp32/Arduino.h"
+            ]
+        }
+    ],
+    "version": 4
+}
